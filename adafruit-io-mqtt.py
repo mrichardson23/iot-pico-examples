@@ -24,7 +24,7 @@ def mqtt_connect():
 
 def reconnect():
     print('Failed to connect to the MQTT Broker. Reconnecting...')
-    time.sleep(5)
+    sleep(5)
     reset()
 
 try:
