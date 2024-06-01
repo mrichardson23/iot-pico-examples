@@ -10,3 +10,8 @@ The following cheat sheets may help as well:
 * [AHT10 temperature sensor cheat sheet](https://docs.google.com/document/d/1MJtTKbrAfC01FncNN328Zc5H6f7RmKw8jfUF7VrEgPQ/edit#heading=h.1wq7pn4vwn3f)
 * [HC-SRO4 ultrasonic distance sensor cheat sheet](https://docs.google.com/document/d/1gGukTre6PMMKBP7mp7E96CRS6yDueLMTpzDRLzV6RMg/edit#heading=h.e5cp67sl6zag)
 * [HC-SR501 infrared motion sensor cheat sheet](https://docs.google.com/document/d/1HAkfcx73zyGLl7AGKLOVNFF_gDXmbWJXEAzB8lLwo9I/edit#)
+
+Other resources:
+
+* [MicroPython driver for the AHT10 and AHT20 temperature and humidity sensors](https://github.com/targetblank/micropython_ahtx0/blob/master/ahtx0.py)
+* [MicroPython driver for the HC-SR04 ultrasonic distance sensor](https://github.com/rsc1975/micropython-hcsr04/blob/master/hcsr04.py)
