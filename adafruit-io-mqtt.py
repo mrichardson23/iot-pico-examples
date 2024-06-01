@@ -15,6 +15,7 @@ mqtt_password = 'YOUR_ADAFRUIT_KEY_HERE' # Under Keys
 mqtt_topic = 'YOUR_ADAFRUIT_ID_HERE/feeds/YOUR_FEED_NAME_HERE' # Under "Feed info"
 mqtt_client_id = str(random.randint(10000,999999)) #must have a unique ID - good enough for now
 
+wlan = network.WLAN(network.STA_IF)
 
 def mqtt_connect():
     client = MQTTClient(client_id=mqtt_client_id, server=mqtt_server, port=mqtt_port, user=mqtt_user, password=mqtt_password, keepalive=3600)
@@ -33,7 +34,6 @@ except OSError as e:
     reconnect()
     
 while True:
-    wlan = network.WLAN(network.STA_IF)
     if wlan.isconnected():
         client.publish(mqtt_topic, '10')
     else:
