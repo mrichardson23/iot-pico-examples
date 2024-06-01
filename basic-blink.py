@@ -5,7 +5,7 @@ from time import sleep
 # "LED" is a special designation for Pico's on-board LED.
 # Change it to a number (without quote marks) when you want to use a GPIO pin.
 # Pin.OUT is how you tell the board that you want to use the pin as an output.
-led = Pin(“LED”, Pin.OUT)
+led = Pin("LED", Pin.OUT)
 
 # A while loop setup like this is an easy way to have code do something forever.
 while True:
