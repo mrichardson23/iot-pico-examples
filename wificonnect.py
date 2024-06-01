@@ -3,7 +3,7 @@ import socket
 from time import sleep
 import machine
 
-ssid = 'Gearbox Members'
+ssid = 'Nordic Hotel Lagos'
 password = 'password here'
 
 def connect():
