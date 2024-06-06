@@ -3,8 +3,8 @@ import socket
 from time import sleep
 import machine
 
-ssid = 'Nordic Hotel Lagos'
-password = 'password here'
+ssid = 'Pico Network'
+password = 'networkpico'
 
 def connect():
     #Connect to WLAN
@@ -12,7 +12,16 @@ def connect():
     wlan.active(True)
     wlan.connect(ssid, password)
     while wlan.isconnected() == False:
-        print('Waiting for connection...')
+        print('Waiting for connection... ')
+        if wlan.status() == network.STAT_NO_AP_FOUND:
+            print("No access point found with the ssid " + ssid)
+            break
+        if wlan.status() == network.STAT_WRONG_PASSWORD:
+            print("Password rejected by WLAN.")
+            break
+        if wlan.status() == network.STAT_CONNECT_FAIL:
+            print("Connection failed.")
+            break
         sleep(1)
     print(wlan.ifconfig())
 
