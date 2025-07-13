@@ -1,7 +1,7 @@
 # iot-pico-examples
 Some code examples from the Raspberry Pi Pico IoT Pico workshops
 
-Please use alongside [this slide deck](https://docs.google.com/presentation/d/1o550QJLtrpQvq0PkU_kU3j8pqurmD8ccVTEqrknRNHI/edit#slide=id.p1).
+Please use alongside [this slide deck](https://docs.google.com/presentation/d/18WRCwpaC9I2XBAmVeDYuJaO7ySw00V7tCHPclukrdOA/edit?usp=sharing).
 
 The following cheat sheets may help:
 
