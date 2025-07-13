@@ -4,8 +4,10 @@
 1. Hold down the BOOTSEL button while you plug in your Raspberry Pi Pico
 1. In Thonny, click the Tools menu and then click Options.
 1. Go to the Interpreter tab.
+1. For the Interpreter selector at the top, choose MicroPython (Pico or RP2040).
 1. Click the link in the bottom right of the pane which says “Install or update MicroPython”
-1. For Target volume, choose whichever includes RPI-RP2
+1. For Target volume, choose whichever includes "RP"
+1. For MicroPython family choose “RP2”
 1. For variant, choose one of the following based on the microcontroller you have:
    * Raspberry Pi Pico / Pico H
    * Raspberry Pi Pico W / Pico WH (used for workshop in Nairobi and Lagos)
