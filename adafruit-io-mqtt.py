@@ -35,7 +35,7 @@ except OSError as e:
     
 while True:
     if wlan.isconnected():
-        client.publish(mqtt_topic, '10')
+        client.publish(mqtt_topic, 'TEST SUCCESS')
     else:
         reconnect()
     sleep(20)
