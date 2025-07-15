@@ -35,7 +35,7 @@ except OSError as e:
     
 while True:
     if wlan.isconnected():
-        client.publish(mqtt_topic, 'TEST SUCCESS')
+        client.publish(mqtt_topic, 'TEST SUCCESS') # Change TEST SUCCESS to the data you want to send. Data must be sent as a string.
     else:
         reconnect()
     sleep(20)
