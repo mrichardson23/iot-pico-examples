@@ -3,8 +3,8 @@ import socket
 from time import sleep
 import machine
 
-ssid = 'Pico Network'
-password = 'networkpico'
+ssid = 'WIFI SSID HERE'
+password = 'WIFI PASSWORD HERE'
 
 def connect():
     #Connect to WLAN
